@@ -1,9 +1,7 @@
-from bisect import bisect_left, bisect_right
+from bisect import bisect, bisect_left, bisect_right
 from itertools import count
 from math import ceil, factorial, floor, gcd
 from collections import Counter, defaultdict
-from os import defpath
-from queue import LifoQueue, Queue
 import sys
 sys.setrecursionlimit(10 ** 7)  # 再起関数の再起上限
 input = sys.stdin.readline
